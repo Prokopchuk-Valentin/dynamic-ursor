@@ -1,0 +1,1 @@
+export type LimitedHTMLElementTagNameMap = 'span' | 'div' | 'p';

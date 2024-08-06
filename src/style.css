@@ -1,0 +1,28 @@
+/** @format */
+
+@font-face {
+  font-family: 'LilexVf';
+  src: url('./assets/fonts/variable/Lilex[wght].ttf');
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: LilexVf, Arial, sans-serif;
+}
+
+#app {
+  width: calc(100vw - 100px);
+}
+
+.text-container {
+  display: flex;
+}
+
+.letterInDynamicCursor {
+  font-size: 48px;
+  font-weight: 100;
+}
